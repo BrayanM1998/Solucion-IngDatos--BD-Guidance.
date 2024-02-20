@@ -19,6 +19,7 @@ Para la creacion del data ware house  implemente el lenguaje de programacion pyt
 -  Aqui genero dos archivos de jupyter notework en donde se resulven cada uno de los objetivos planteados: tanto en la base de datos transaccional (original) como el Data Were House Original
   ![solucion](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/1da0cbc8-0b1d-412f-926f-fbed9ffdd127)
 
+#### De ser necesario,tambien realice tambien el backup del Data Ware House (Se encunta dentro de la carpeta)
 
 # Nota: importante aclarar que en el archivos de jupyter se muestra una previsualizacion de los resultados obtenidos en cada ejecucion
 
