@@ -1,10 +1,10 @@
-#SOLUCION PRUEBA ING DATOS - BD GUIDANCE
+# SOLUCION PRUEBA ING DATOS - BD GUIDANCE
 
-#Inicializar los contenedores con Docker
+# Inicializar los contenedores con Docker
 
 Para el acceso a la base de datos dvdrental se establecio inicialmnete una conexecion mediante el programa Docker, siguiendo las intrucciones realizadas
 
-##Data Ware House
+## Data Ware House
 ![dw_dvdrental -Modelo Estrella- public](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/285ab87f-59aa-475b-9f90-bf402bfe2449)
 
 Para la creacion del data ware house  implemente el lenguaje de programacion python con el entorno de 'Jupyter Notewook' para realizar las siguientes tareas:
@@ -14,13 +14,13 @@ Para la creacion del data ware house  implemente el lenguaje de programacion pyt
 
   - Eliminacion tablas DW: En este scrip se borran las tablas (drop) contenidas en el DW de tak menera que me permita nuavenete retroalimentar la base de datos transaccional, en caso de ser requerido
 
-###Solucion
+### Solucion
 
 -  Aqui genero dos archivos de jupyter notework en donde se resulven cada uno de los objetivos planteados: tanto en la base de datos transaccional (original) como el Data Were House Original
   ![solucion](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/1da0cbc8-0b1d-412f-926f-fbed9ffdd127)
 
 
-#Nota: importante aclarar que en el archivos de jupyter se muestra una previsualizacion de los resultados obtenidos en cada ejecucion
+# Nota: importante aclarar que en el archivos de jupyter se muestra una previsualizacion de los resultados obtenidos en cada ejecucion
 
 ## Dash Board
 
