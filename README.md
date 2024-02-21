@@ -4,12 +4,12 @@
 
 Para el acceso a la base de datos dvdrental se establecio inicialmnete una conexecion mediante el programa Docker, siguiendo las intrucciones planteadas
 
-    ```
+    
     cd data_warehouse
     docker build -t imagen_dw_dvdrental .
     docker run -d --net dw_network -p 5431:5432 --name dw_dvdrental_contenedor imagen_dw_dvdrental
     
-    ```
+    
 
 ## Data Ware House
 ![dw_dvdrental -Modelo Estrella- public](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/285ab87f-59aa-475b-9f90-bf402bfe2449)
