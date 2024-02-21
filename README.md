@@ -17,7 +17,7 @@ Para el acceso a la base de datos dvdrental se establecio inicialmnete una conex
    #### Almacen de Datos
 ![Captura de pantalla (14)](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/29a2707a-ef7f-47f4-a64e-738c8da22139)
 
-Para la creacion del Data WareHouse  implemente el lenguaje de programacion python con el entorno de 'Jupyter Notewook' para realizar las siguientes tareas:
+Para la creacion del Data WareHouse  implemente el lenguaje de programacion python con el entorno de 'Jupyter Notebook' para realizar las siguientes tareas:
   - Crear tablas DW: En esta creo la estructura que va a tener cada una de mis tablas en el dw, estableciendo de tal menera el modelo fisico de estrella de mmi base de datos DW
   - Carga ETL DW: En este apartado genero toda la transformacion requerida para la carga de los datos requeridos
     ![etl](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/23b2af68-37bb-468c-b7d5-c5b2be1bdba7)
