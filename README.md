@@ -12,7 +12,9 @@ Para el acceso a la base de datos dvdrental se establecio inicialmnete una conex
     
 
 ## Data Ware House
+   #### Modelo Estrella
 ![dw_dvdrental -Modelo Estrella- public](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/285ab87f-59aa-475b-9f90-bf402bfe2449)
+   #### Almacen de Datos
 ![Captura de pantalla (14)](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/29a2707a-ef7f-47f4-a64e-738c8da22139)
 
 Para la creacion del Data DareHouse  implemente el lenguaje de programacion python con el entorno de 'Jupyter Notewook' para realizar las siguientes tareas:
