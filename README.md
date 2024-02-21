@@ -2,17 +2,24 @@
 
 # Inicializar los contenedores con Docker
 
-Para el acceso a la base de datos dvdrental se establecio inicialmnete una conexecion mediante el programa Docker, siguiendo las intrucciones realizadas
+Para el acceso a la base de datos dvdrental se establecio inicialmnete una conexecion mediante el programa Docker, siguiendo las intrucciones planteadas
+
+'''
+cd data_warehouse
+docker build -t imagen_dw_dvdrental .
+docker run -d --net dw_network -p 5431:5432 --name dw_dvdrental_contenedor imagen_dw_dvdrental
+'''
 
 ## Data Ware House
 ![dw_dvdrental -Modelo Estrella- public](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/285ab87f-59aa-475b-9f90-bf402bfe2449)
+![Captura de pantalla (14)](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/29a2707a-ef7f-47f4-a64e-738c8da22139)
 
-Para la creacion del data ware house  implemente el lenguaje de programacion python con el entorno de 'Jupyter Notewook' para realizar las siguientes tareas:
-  - Crear tablas DW: En esta creo la estructura que va a tener cada una de mis tablas en el dw, estableciendo de tal menera el modelo fisico de estreña de mmi base de datos
-  - Carga ETL DW: En este apartado genero toda la tranformacion requerida para la carga de los datos requeridos
+Para la creacion del Data DareHouse  implemente el lenguaje de programacion python con el entorno de 'Jupyter Notewook' para realizar las siguientes tareas:
+  - Crear tablas DW: En esta creo la estructura que va a tener cada una de mis tablas en el dw, estableciendo de tal menera el modelo fisico de estrella de mmi base de datos DW
+  - Carga ETL DW: En este apartado genero toda la transformacion requerida para la carga de los datos requeridos
     ![etl](https://github.com/BrayanM1998/Solucion-IngDatos--BD-Guidance./assets/160368046/23b2af68-37bb-468c-b7d5-c5b2be1bdba7)
 
-  - Eliminacion tablas DW: En este scrip se borran las tablas (drop) contenidas en el DW de tak menera que me permita nuavenete retroalimentar la base de datos transaccional, en caso de ser requerido
+  - Eliminacion tablas DW: En este script se borran las tablascontenidas en el DW de tal menera que me permita nuavenete retroalimentar el DW desde la base de datos transaccional, en caso de ser requerido
 
 ### Solucion
 
